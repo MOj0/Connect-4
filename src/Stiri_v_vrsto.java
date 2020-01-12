@@ -184,7 +184,7 @@ public class Stiri_v_vrsto implements Runnable
 			g.setColor(Color.black);
 			if(zmaga[0] == 3) // ce je izenaceno
 			{
-				g.drawString("IZENAÈENO!", 410, 30);
+				g.drawString("IZENAï¿½ENO!", 410, 30);
 				g.setFont(new Font("TimesRoman", Font.BOLD, 24));
 				g.drawString("Kliknite za restart...", 390, 60);
 			}
@@ -239,7 +239,7 @@ public class Stiri_v_vrsto implements Runnable
 		{
 			g.setFont(new Font("TimesRoman", Font.BOLD, 35));
 			g.setColor(Color.black);
-			g.drawString("ŠTIRI V VRSTO", 377, 100);
+			g.drawString("ï¿½TIRI V VRSTO", 377, 100);
 
 			g.setFont(new Font("TimesRoman", Font.BOLD, 25));
 			g.drawRect(rectX, 250, rectWidth, rectHeight);
@@ -1191,7 +1191,7 @@ public class Stiri_v_vrsto implements Runnable
 
 						if(turn == 1 && menu == 1 && play) // igra pc
 						{
-							int pcX = pcTurn(map); //izraèuna kateri stolpec bo igral
+							int pcX = pcTurn(map); //izraï¿½una kateri stolpec bo igral
 							map[preveriStolpec(pcX)][pcX] = 2; //vnesem v tabelo
 
 							turn = (turn + 1) % 2;
